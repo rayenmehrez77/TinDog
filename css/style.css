@@ -1,0 +1,170 @@
+
+body {
+    font-family: "Montserrat";
+    text-align: center; 
+}
+h1 {
+  
+  font-family: 'Oswald-Bolds', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5; 
+}
+
+h3 {
+  font-family: 'Bree Serif', serif;
+  font-size: 30px;
+}
+/* Container*/ 
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+/**********************Title**************************/ 
+#title {
+  
+    background-color: #ff4c68;
+    text-align: left;
+    color: #fff;
+}
+
+  /* Navigation Bar */
+  .navbar {
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold; 
+} 
+.nav-item {
+    padding: 0 18px;
+} 
+.nav-link {
+    font-size: 1.2rem; 
+    font-family: "Montserrat-light";
+}
+  /* Download Buttons */ 
+  .download-button {
+     margin-right: 10px;
+  } 
+  /* Iphone */ 
+  .iphone6 {
+     width: 60%; 
+     transform: rotate(25deg);
+     position: absolute;
+     right: 30%;
+     
+  }
+  @media (max-width: 1028px) {
+    #title {
+      text-align: center;
+    }
+     .iphone6 {
+       position: static; 
+       transform: rotate(0);
+       margin-top: 50px;
+     }
+   }
+   /* *************************End Title Section***************************/
+
+
+
+  /* Features Section*/ 
+  #features {
+    background-color: #fff;
+    position: relative; 
+  } 
+  p {
+      color: #000000;
+  } 
+  .paragraph {
+    margin-bottom: 50px;
+  }
+ 
+ .features-box {
+   padding: 4.5%;
+ 
+ }
+ /*Icon*/ 
+ .icon {
+   color:#ef8172 ;
+   padding: 1rem;
+ }
+ .icon:hover {
+   color: #ff4c68;
+ } 
+
+ /*Testimonial*/ 
+
+ #testimonials {
+   color: #fff;
+ } 
+ .testimonial-image {
+   width: 15%;
+   border-radius: 100%;
+   margin: 5% 3%;
+ }
+ .bg-color {
+    background-color: #ef8172
+ }
+
+ /*Press*/ 
+
+ #press {
+   padding-bottom: 3%;
+
+ } 
+ .press-logo {
+   width: 15%;
+   margin: 20px 20px 50px;
+ } 
+ .card-deck {
+   margin: 0 10px;
+ } 
+ /* Pricing Section*/ 
+ #pricing {
+   padding: 100px;
+} 
+.price-heading {
+    font-size: 50px
+}
+@media (max-width: 1000px) {
+    .price-heading {
+         font-size: 32px;
+    }
+}
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+
+}
+.cta-heading {
+    font-family: 'Oswald-Bolds', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5; 
+    margin-bottom: 40px ;
+}
+.social-icon {
+    margin: 20px 10px;
+}
+.social-icon:hover {
+    color: red;
+}
+@media (max-width: 1000px) {
+
+    .cta-heading {
+      font-size: 30px;
+  
+    }  
+  }
+/*Footer*/ 
+footer {
+    padding: 50px 50px;
+}  
+/* contact*/ 
+.Contact-us {
+    margin-top: 50px;
+    text-align: center;
+}
